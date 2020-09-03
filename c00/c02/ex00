@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+char *ft_strcpy(dest, char *src)
+{
+    int i;
+    i = 0;
+    while (dest[i] != '\0')
+    {
+        dest[i] = src[i];
+        i++
+    }
+    return dest;cd ..
+}
+
+int main()
+{
+    char a[256] = "abcd";
+    char b[256] = "WSCBA"
+
+    printf("%s:%s", , a,b);
+    ft_strcpy(a,b);
+    printf("after func:%s", a);
+}

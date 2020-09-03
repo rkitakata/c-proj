@@ -1,0 +1,9 @@
+norminette -R CheckForbiddenSourceHeader
+export MAIL=$USER@student.42tokyo
+gcc -Wall -Wextra -Werror ft_putnbr.c main.c
+gcc -g -fsanitize=address main.c
+https://www.autodraw.com/
+
+
+変数に&を付けてショートカットを設定し、
+*記号を付けて通常変数モードにして使用する
